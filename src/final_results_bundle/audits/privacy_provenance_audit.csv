@@ -1,0 +1,2 @@
+_mia_source_file,_mia_source_col,_knn_source_file,_knn_source_col,n_rows,n_equal,equal_fraction,mia_non_nan,knn_non_nan,both_non_nan,equal_count,equal_fraction_total,eps_equal
+outputs/mia_results_clean.csv,mia_auc,outputs/knn_mia_results.csv,knn_mia_auc,288,102,0.354166666667,288,288,288,102,0.354166666667,0.000000001000

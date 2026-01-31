@@ -1,0 +1,2 @@
+n_pairs,delta_tstr_balacc_mean,delta_tstr_balacc_ci95_low,delta_tstr_balacc_ci95_high,delta_privacy_mean,delta_privacy_ci95_low,delta_privacy_ci95_high,delta_pearson_mad_mean,delta_pearson_mad_ci95_low,delta_pearson_mad_ci95_high
+71,-0.042561167543,-0.079858205621,-0.005264129465,-4.463533667796,-4.474815619546,-4.452251716046,-0.005144189026,-0.009059913956,-0.001228464096

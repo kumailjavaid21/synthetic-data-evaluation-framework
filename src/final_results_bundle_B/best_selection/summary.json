@@ -1,0 +1,61 @@
+{
+  "best_overall": {
+    "run_dir": "outputs\\B\\dp_diffusion\\seed22\\train3.0",
+    "syn_path": "outputs\\B\\dp_diffusion\\seed22\\train3.0\\synth.csv",
+    "method": "DP-Diffusion",
+    "seed": 22,
+    "epsilon_train": 3.0,
+    "epsilon_repair": null,
+    "utility": 0.5,
+    "privacy": 0.0003182171715929,
+    "score": 0.484089141420355
+  },
+  "best_utility": {
+    "run_dir": "outputs\\B\\baselines_sdv\\tvae\\seed55",
+    "syn_path": "outputs\\B\\baselines_sdv\\tvae\\seed55\\synth.csv",
+    "method": "SDV-TVAE",
+    "seed": 55,
+    "epsilon_train": null,
+    "epsilon_repair": null,
+    "utility": 0.534024766592445,
+    "privacy": 0.0041075855053859,
+    "score": 0.32864549132315
+  },
+  "best_dp_overall": {
+    "run_dir": "outputs\\B\\dp_diffusion\\seed22\\train3.0",
+    "syn_path": "outputs\\B\\dp_diffusion\\seed22\\train3.0\\synth.csv",
+    "method": "DP-Diffusion",
+    "seed": 22,
+    "epsilon_train": 3.0,
+    "epsilon_repair": null,
+    "utility": 0.5,
+    "privacy": 0.0003182171715929,
+    "score": 0.484089141420355
+  },
+  "best_baseline_overall": {
+    "run_dir": "outputs\\B\\baselines_sdv\\ctgan\\seed22",
+    "syn_path": "outputs\\B\\baselines_sdv\\ctgan\\seed22\\synth.csv",
+    "method": "SDV-CTGAN",
+    "seed": 22,
+    "epsilon_train": null,
+    "epsilon_repair": null,
+    "utility": 0.5152154381030509,
+    "privacy": 0.0007806663171138,
+    "score": 0.4761821222473609
+  },
+  "best_under_thresh": {
+    "run_dir": "outputs\\B\\dp_diffusion\\seed22\\train3.0",
+    "syn_path": "outputs\\B\\dp_diffusion\\seed22\\train3.0\\synth.csv",
+    "method": "DP-Diffusion",
+    "seed": 22,
+    "epsilon_train": 3.0,
+    "epsilon_repair": null,
+    "utility": 0.5,
+    "privacy": 0.0003182171715929,
+    "score": 0.484089141420355
+  },
+  "privacy_thresh": 0.003,
+  "score_lambda": 50.0,
+  "utility_col_used": "utility_main",
+  "privacy_col_used": "privacy_adv_primary"
+}

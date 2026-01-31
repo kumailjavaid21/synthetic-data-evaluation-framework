@@ -1,0 +1,2 @@
+run_id,epsilon,mia_worst_case_auc,mia_mean_auc,mia_settings_count,mia_validation_passed,privacy_level,advantage
+comprehensive_mia_results,,1.0,1.0,8.0,True,BROKEN,0.5

@@ -1,0 +1,4 @@
+dataset,epsilon_train,n_pairs,delta_utility_mean,delta_utility_ci95_low,delta_utility_ci95_high,delta_utility_std,delta_privacy_mean,delta_privacy_ci95_low,delta_privacy_ci95_high,delta_privacy_std
+A,0.700000000000,1,0.000000000000,,,,-0.009763265306,,,
+A,1.000000000000,1,0.000000000000,,,,-0.008093877551,,,
+A,3.000000000000,1,0.000000000000,,,,-0.010175510204,,,

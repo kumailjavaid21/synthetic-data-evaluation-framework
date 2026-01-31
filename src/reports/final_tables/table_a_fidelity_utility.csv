@@ -1,0 +1,16 @@
+Dataset,Method,Epsilon,KS_mean,Correlation_diff,NN_mean
+A,CTGAN,inf,0.331,0.058,1.689
+A,DP-CTGAN,1.0,0.869,0.668,10.0
+A,DP-Diffusion,0.13,0.518,0.121,2.093
+A,Non-Private Diffusion,inf,0.612,0.18,1.661
+A,SDV Gaussian Copula,inf,0.091,0.069,6.28
+B,CTGAN,inf,0.044,0.046,4.706
+B,DP-CTGAN,1.0,0.934,0.845,9.642
+B,DP-Diffusion,0.13,0.518,0.039,6.353
+B,DP-Diffusion,1.0,0.516,0.039,6.067
+B,Non-Private Diffusion,inf,0.679,0.078,3.102
+B,SDV Gaussian Copula,inf,0.29,0.043,8.713
+C,CTGAN,inf,0.349,0.112,5.834
+C,DP-CTGAN,1.0,0.88,0.715,10.0
+C,Non-Private Diffusion,inf,0.542,0.106,4.727
+C,SDV Gaussian Copula,inf,0.208,0.089,10.0

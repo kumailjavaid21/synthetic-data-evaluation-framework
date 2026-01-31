@@ -1,0 +1,4 @@
+mia_non_nan,knn_non_nan,both_non_nan,mia_knn_equal_count,mia_knn_equal_fraction,eps_equal,mia_knn_pearson,mia_knn_spearman,mia_min,mia_median,mia_mean,mia_max,knn_min,knn_median,knn_mean,knn_max,record_type,dataset,method,epsilon,seed,mia_auc,knn_mia_auc,abs_diff
+2.000000000000,24.000000000000,2.000000000000,0.000000000000,0.000000000000,0.000000001000,,,0.498612644779,0.498612644779,0.498612644779,0.498612644779,0.502340515212,0.503096502603,0.503096502603,0.503852489994,summary,,,,,,,
+,,,,,,,,,,,,,,,,sample,B,DP-Diffusion+DP-CR,5.000000000000,33.000000000000,0.498612644779,0.502340515212,0.003727870434
+,,,,,,,,,,,,,,,,sample,B,DP-Diffusion+DP-CR,5.000000000000,33.000000000000,0.498612644779,0.503852489994,0.005239845215

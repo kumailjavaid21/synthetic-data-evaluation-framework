@@ -1,0 +1,5 @@
+Method,Dataset,Fit_Time,Sample_Time,Epsilon,Status
+SDV Gaussian Copula,A,0.370542049407959,0.0,inf,Success
+CTGAN,A,0.0,0.0,inf,Success
+TVAE,A,,,,Failed
+DP-CTGAN,A,0.6478796005249023,0.008998632431030273,inf,Success

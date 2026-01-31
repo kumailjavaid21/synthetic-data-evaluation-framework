@@ -1,0 +1,23 @@
+EXECUTIVE SUMMARY - Generated from Master Table Only
+====================================================
+Generated: 2025-12-23 22:31:42
+Source: elite_master_table.csv
+
+EXPERIMENT OVERVIEW:
+- Total runs: 6
+- Runs with privacy data: 1
+- Runs with DP parameters: 0
+- Runs with utility data: 0
+
+PRIVACY ANALYSIS:
+- Broken privacy (AUC >= 0.95): 1/1
+- Good privacy (AUC < 0.6): 0/1
+- Mean worst-case AUC: 1.000
+
+DATA INTEGRITY:
+- Source verified: All data from run artifacts only
+- Manual edits: None detected
+- Last updated: 2025-12-23T22:04:50.314524
+
+CRITICAL FINDINGS:
+- 1 runs show completely broken privacy (AUC >= 0.95)

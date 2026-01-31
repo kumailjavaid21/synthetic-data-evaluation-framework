@@ -1,0 +1,18 @@
+\begin{tabular}{lllllllllllllllllllllllllllllllllll}
+\toprule
+dataset & method & epsilon & repaired flag & synth kind & utility mean & utility std & utility main n & utility acc mean & utility acc std & tstr acc n & privacy mean & privacy std & privacy main n & mia auc mean & mia auc std & mia auc n & knn mia auc mean & knn mia auc std & knn mia auc n & mia adv fix mean & mia adv fix std & mia adv fix n & knn mia adv fix mean & knn mia adv fix std & knn mia adv fix n & corr mean & corr std & pearson mad n & n seeds & utility winner & privacy winner & pareto winner & delta vs baseline utility & delta vs baseline privacy \\
+\midrule
+C & DP-Diffusion & 0.5 & NA & NA & 0.3333 & NA & 1 & 0.3438 & NA & 1 & 5.1107 & NA & 1 & 0.0000 & NA & 1 & NA & NA & 0 & 0.5000 & NA & 1 & NA & NA & 0 & 0.1122 & NA & 1 & 1 & 0 & 0 & 0 & 0.0000 & NA \\
+C & DP-Diffusion & 0.7 & NA & NA & 0.3333 & NA & 1 & 0.3438 & NA & 1 & 5.1107 & NA & 1 & 0.0000 & NA & 1 & NA & NA & 0 & 0.5000 & NA & 1 & NA & NA & 0 & 0.1122 & NA & 1 & 1 & 0 & 0 & 0 & 0.0000 & NA \\
+C & DP-Diffusion & 1.0 & NA & NA & 0.3333 & 0.0000 & 2 & 0.3438 & 0.0000 & 2 & 5.1142 & 0.0139 & 2 & 0.5000 & 0.7071 & 2 & NA & NA & 0 & 0.5000 & 0.0000 & 2 & NA & NA & 0 & 0.0422 & 0.0013 & 2 & 2 & 0 & 1 & 0 & 0.0000 & NA \\
+C & DP-Diffusion & 3.0 & NA & NA & 0.3333 & NA & 1 & 0.3438 & NA & 1 & 5.1107 & NA & 1 & 0.0000 & NA & 1 & NA & NA & 0 & 0.5000 & NA & 1 & NA & NA & 0 & 0.1122 & NA & 1 & 1 & 0 & 0 & 0 & 0.0000 & NA \\
+C & DP-Diffusion & 4.0 & NA & NA & 0.3333 & NA & 1 & 0.3438 & NA & 1 & 5.1107 & NA & 1 & 0.0000 & NA & 1 & NA & NA & 0 & 0.5000 & NA & 1 & NA & NA & 0 & 0.1122 & NA & 1 & 1 & 0 & 0 & 0 & 0.0000 & NA \\
+C & DP-Diffusion & 5.0 & NA & NA & 0.3333 & NA & 1 & 0.3438 & NA & 1 & 5.1107 & NA & 1 & 0.0000 & NA & 1 & NA & NA & 0 & 0.5000 & NA & 1 & NA & NA & 0 & 0.1122 & NA & 1 & 1 & 0 & 0 & 0 & 0.0000 & NA \\
+C & DP-Diffusion+DP-CR & 1.0 & 1 & NA & 0.3374 & 0.0185 & 15 & 0.3307 & 0.0237 & 15 & 0.8188 & 0.0049 & 15 & 0.7333 & 0.4577 & 15 & NA & NA & 0 & 0.5000 & 0.0000 & 15 & NA & NA & 0 & 0.0428 & 0.0008 & 15 & 15 & 0 & 0 & 0 & 0.0040 & NA \\
+C & DP-Diffusion+DP-CR & 1.5 & 1 & NA & 0.3339 & 0.0245 & 13 & 0.3227 & 0.0275 & 13 & 0.8178 & 0.0051 & 13 & 1.0000 & 0.0000 & 13 & NA & NA & 0 & 0.5000 & 0.0000 & 13 & NA & NA & 0 & 0.0426 & 0.0007 & 13 & 13 & 0 & 0 & 0 & 0.0006 & NA \\
+C & DP-Diffusion+DP-CR & 5.0 & 1 & NA & 0.3457 & 0.0261 & 26 & 0.3371 & 0.0305 & 26 & 0.8153 & 0.0035 & 26 & 0.8462 & 0.3679 & 26 & NA & NA & 0 & 0.5000 & 0.0000 & 26 & NA & NA & 0 & 0.0428 & 0.0008 & 26 & 26 & 1 & 0 & 0 & 0.0123 & NA \\
+C & SDV-CTGAN & NA & NA & NA & 0.3333 & 0.0323 & 3 & 0.3359 & 0.0271 & 3 & NA & NA & 0 & 1.0000 & 0.0000 & 3 & NA & NA & 0 & 0.5000 & 0.0000 & 3 & NA & NA & 0 & 0.0644 & 0.0019 & 3 & 3 & 0 & 0 & 0 & -0.0000 & NA \\
+C & SDV-GaussianCopula & NA & NA & NA & 0.3333 & 0.0000 & 3 & 0.3125 & 0.0000 & 3 & NA & NA & 0 & 1.0000 & 0.0000 & 3 & NA & NA & 0 & 0.5000 & 0.0000 & 3 & NA & NA & 0 & 0.0771 & 0.0000 & 3 & 3 & 0 & 0 & 0 & 0.0000 & NA \\
+C & SDV-TVAE & NA & NA & NA & 0.3242 & 0.0091 & 3 & 0.3047 & 0.0078 & 3 & NA & NA & 0 & 1.0000 & 0.0000 & 3 & NA & NA & 0 & 0.5000 & 0.0000 & 3 & NA & NA & 0 & 0.1625 & 0.0213 & 3 & 3 & 0 & 0 & 0 & -0.0091 & NA \\
+\bottomrule
+\end{tabular}

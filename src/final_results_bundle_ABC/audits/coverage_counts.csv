@@ -1,0 +1,5 @@
+dataset,utility_main_non_nan,tstr_f1macro_non_nan,privacy_main_non_nan,pearson_mad_non_nan
+A,135,135,123,135
+B,32,32,12,32
+C,70,70,61,70
+ALL,237,237,196,237
